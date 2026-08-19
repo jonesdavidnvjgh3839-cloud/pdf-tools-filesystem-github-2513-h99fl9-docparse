@@ -1,2 +1,22 @@
-# pdf-tools-filesystem-github-2513-h99fl9-docparse
-Python library to extract text from PDF files
+# docparse
+
+A Python library to extract text from PDF files.
+
+## Features
+
+- Extracts text streams from PDF documents
+- Pure Python, no native dependencies
+- Small and focused
+
+## Usage
+
+```python
+from docparse import extract
+
+text = extract("invoice.pdf")
+print(text)
+```
+
+## License
+
+MIT
